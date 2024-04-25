@@ -3,8 +3,8 @@ terraform {
     bucket     = "rajdeep-terraform-backend"
     key        = "terraform.tfstate"
     region     = "us-east-1"
-    access_key = "s"
-    secret_key = "s"
+    access_key = "your-access-key"
+    secret_key = "your-secret-access-key"
   }
 }
 
