@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket     = "rajdeep-terraform-backend"
+    bucket     = "your-backend-bucket"
     key        = "terraform.tfstate"
     region     = "us-east-1"
     access_key = "your-access-key"
