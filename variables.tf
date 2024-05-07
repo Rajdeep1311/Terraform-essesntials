@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "s3_bucket_name" {
   description = "The name of the S3 bucket for the static website."
-  default     = "terraform-cloudfront"
+  default     = "your-bucket-name"
 }
 
 variable "index_html_path" {
